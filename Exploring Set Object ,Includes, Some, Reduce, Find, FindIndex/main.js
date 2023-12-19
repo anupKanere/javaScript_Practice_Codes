@@ -121,7 +121,7 @@ const anotherArr1 = [1, 2, 2, 3, 3, 3, 4, 5, 6, 7, 6, 8, 9, 10];
 const removeDup = (arr) =>{
   return arr.reduce((acc , element) => {
     return acc.includes(element) ? acc : [...acc , element]
-  },[])
+  })
 }
 console.log("Using Reduce function")
 console.log(removeDup(dupArr1));
