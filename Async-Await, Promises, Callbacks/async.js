@@ -39,6 +39,5 @@ const datas = [
   }
 
   start();
-
   //await is only valid with async
-  
+
